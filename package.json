@@ -1,0 +1,21 @@
+{
+    "name": "solarized",
+    "displayName": "Solarized",
+    "description": "A nice theme which is easy on the eye :)",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.68.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Solarized",
+                "uiTheme": "vs",
+                "path": "./themes/Solarized-color-theme.json"
+            }
+        ]
+    }
+}
