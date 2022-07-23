@@ -1,13 +1,32 @@
 {
-    "name": "solarized",
-    "displayName": "Solarized",
-    "description": "A nice theme which is easy on the eye :)",
-    "version": "0.0.1",
+    "name": "solarized-theme",
+    "displayName": "Jet Another Solarized Theme",
+    "description": "Jet another solarized theme which is easy on the eye. In contrast to other solarized themes, text is actually still readable.",
+    "version": "1.0.0",
+    "publisher": "JulianSchelb",
+    "author": {
+        "name": "Julian Schelb"
+    },
+    "main": "",
+    "browser": "",
+    "icon": "images/icon.png",
+    "galleryBanner": {
+        "color": "f9f6ef",
+        "theme": "light"
+    },
     "engines": {
         "vscode": "^1.68.0"
     },
+    "license": "MIT",
     "categories": [
         "Themes"
+    ],
+    "keywords": [
+        "theme",
+        "solarized",
+        "sepia",
+        "muted",
+        "light"
     ],
     "contributes": {
         "themes": [
@@ -17,5 +36,10 @@
                 "path": "./themes/Solarized-color-theme.json"
             }
         ]
-    }
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/julianschelb/vscode-theme-solarized"
+    },
+    "homepage": "https://github.com/julianschelb/vscode-theme-solarized/edit/main/README.md"
 }

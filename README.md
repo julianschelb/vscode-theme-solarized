@@ -1,5 +1,5 @@
-# Another Solarized VS Code Theme
+# Jet Another Solarized Theme
 
-A solarized theme which is easy on the eyes and with higher contrast compared to other similar themes.
+Jet another solarized theme which is easy on the eye. In contrast to other solarized themes, text is actually still readable.
 
-![](Screenshot.png)
+![](https://github.com/julianschelb/vscode-theme-solarized/raw/main/Screenshot.png)
