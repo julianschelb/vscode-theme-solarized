@@ -1,7 +1,7 @@
 {
   "name": "yet-another-solarized-theme",
   "displayName": "Yet Another Solarized Theme",
-  "description": "Yet another solarized theme which is easy on the eye. In contrast to other solarized themes, text is actually still readable.",
+  "description": "Yet another solarized theme which is easy on the eyes. In contrast to other solarized themes, text is actually still readable.",
   "version": "1.0.4",
   "publisher": "JulianSchelb",
   "author": {
@@ -24,14 +24,20 @@
     "solarized",
     "sepia",
     "muted",
-    "light"
+    "light",
+    "dark"
   ],
   "contributes": {
     "themes": [
       {
-        "label": "Solarized",
+        "label": "Yet Another Solarized Theme (Light)",
         "uiTheme": "vs",
         "path": "./themes/Solarized-color-theme.json"
+      },
+      {
+        "label": "Yet Another Solarized Theme (Dark)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Solarized-color-theme-dark.json"
       }
     ]
   },
